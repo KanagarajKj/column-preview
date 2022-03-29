@@ -39,11 +39,13 @@ body{
     background-color: var(--clr-Bright-orange);
     padding: 2.5rem 0rem 0rem 2.5rem;
     border-radius: 10px 10px 0 0;
+    height: 27rem;
 }
 
 .card_two_container{
     background-color: var(--clr-Dark-cyan);
      padding: 2.5rem 0rem 0rem 2.5rem;
+     height: 27rem;
 }
 
 
@@ -51,6 +53,7 @@ body{
   background-color: var(--clr-Very-dark-cyan);
     padding: 2.5rem 0rem 0rem 2.5rem;
     border-radius: 0 0 10px 10px;
+    height:27rem ;
 }
 
 .car_title{
@@ -115,4 +118,35 @@ body{
 .card_three_btn:hover{
     background-color: var(--clr-Very-dark-cyan);
     color: var(--clr-transparent-white);
+}
+
+@media screen and (min-width:1440px){
+
+.card{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 64%;
+height: 100vh;
+}
+
+.card_one_container{
+    border-radius: 10px 0 0 10px;
+    height: 32rem;
+}
+
+.card_two_container{
+    height: 32rem;
+}
+
+.card_three_container{
+    border-radius: 0 10px 10px 0;
+    height: 32rem;
+}
+.card_paragraph{
+    margin-bottom: 6rem;
+}
+
+
 }
